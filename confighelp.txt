@@ -1,0 +1,30 @@
+This is description for main config file of the minecraft plugin "Authorization"
+
+The config lines should look like this:
+   
+   something: false
+   other-thing: 1000
+   (... And so on)
+
+Available settings:
+
+   log-catched-errors
+   # Print errors plugin noticed but couldn't fix to console. Default: false
+   
+   max-offline-time
+   # Max time without entering the password (in miliseconds). Default: 46400000
+   
+   custom-join-message-enabled
+   # Is custom join message enabled or not. Default = true
+   
+   custom-join-message-text
+   # Custom join message text. ("Chat code" at https://htmlcolorcodes.com/bukkit-color-codes). Default = §f§l(the-player-name) §7joined the game
+   
+   custom-leave-message-enabled: true
+   # Is custom leave message enabled or not. Default = true
+   
+   custom-join-message-text: §f§l(the-player-name) §7left the game
+   # Custom join message text. ("Chat code" at https://htmlcolorcodes.com/bukkit-color-codes). Default = §f§l(the-player-name) §7left the game
+   
+Tip: to reset a line in config (not this file) just delete it and type "/reloadauthconfig" in chat or reload the entire plugin ("/reload" or "/reload confirm")
+The plugin is made by Greenem

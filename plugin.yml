@@ -1,0 +1,29 @@
+name: Authorization
+main: org.greenem.plugins.Authorization.Main
+version: 2.0
+api-version: 1.18
+commands:
+   register:
+      description: Registration.
+      default: true
+   login:
+      description: Loging in.
+      default: true
+   r:
+      description: Registration.
+      default: true
+   reg:
+      description: Registration.
+      default: true
+   l:
+      description: Loging in.
+      default: true
+   forgetsession:
+      description: Ask for password next time.
+      default: true
+   fs:
+      description: Ask for password next time.
+      default: true
+   reloadauthconfig:
+      description: Reload the config
+      permission: op

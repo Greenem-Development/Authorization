@@ -1,0 +1,21 @@
+# This is main config file for minecraft plugin "Authorization"
+
+settings:
+   
+   # Print errors and so on to console. Default: false
+   debug: false
+   
+   # Max time without entering the password (in miliseconds). Default: 46400000
+   max-offline-time: 46400000
+   
+   # Custom join message enabled or not. Default = true
+   custom-join-message-enabled: true
+   
+   # Custom join message text. ("Chat code" at https://htmlcolorcodes.com/bukkit-color-codes) Default = §f§l(the-player-name) §7joined the game
+   custom-join-message-text: §f§l(the-player-name) §7joined the game
+   
+   # Custom leave message enabled or not. Default = true
+   custom-leave-message-enabled: true
+   
+   # Custom join message text. ("Chat code" at https://htmlcolorcodes.com/bukkit-color-codes) Default = §f§l(the-player-name) §7left the game
+   custom-join-message-text: §f§l(the-player-name) §7left the game
