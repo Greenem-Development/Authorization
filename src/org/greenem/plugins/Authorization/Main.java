@@ -77,7 +77,7 @@ import org.greenem.plugins.Authorization.ConfigData;
 
 public class Main extends JavaPlugin implements Listener {
 	//Basically, before the project was just one big file, but I decided to break it to different parts for the file management not to look that bad LOL
-	
+	 
 	public static Logger log = Bukkit.getLogger();
 	public static Properties props = new Properties();
 	
